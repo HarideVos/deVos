@@ -20,7 +20,7 @@ public class Flight {
         return flightNumber;
     }
 
-    public String getOrigin() {
+	public String getOrigin() {
         return origin;
     }
 
@@ -35,6 +35,25 @@ public class Flight {
     public int getAvailableSeats() {
         return availableSeats;
     }
+    public void setFlightNumber(String flightNumber) {
+		this.flightNumber = flightNumber;
+	}
+
+	public void setOrigin(String origin) {
+		this.origin = origin;
+	}
+
+	public void setDestination(String destination) {
+		this.destination = destination;
+	}
+
+	public void setDepartureTime(String departureTime) {
+		this.departureTime = departureTime;
+	}
+
+	public void setAvailableSeats(int availableSeats) {
+		this.availableSeats = availableSeats;
+	}
 
     public void bookSeat() {
         if (availableSeats > 0) {
