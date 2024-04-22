@@ -1,5 +1,6 @@
 package com.homeworkWeek3;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class WorkSpace {
@@ -35,7 +36,7 @@ public class WorkSpace {
 			            System.out.println("Invalid choice. Please try again.");
 			    }
 			}
-       }catch  (Exception e) {
+       }catch  (InputMismatchException e) {
 		System.out.println("Please use a correct input");
        }
     }
