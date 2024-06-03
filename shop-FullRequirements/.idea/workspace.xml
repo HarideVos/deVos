@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6a516de3-1780-4af8-8ae2-41618a85470b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/binary/shop/advices/ShopExceptionHandlerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/binary/shop/config/ClientDetailsServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/binary/shop/services/EmployeeServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/binary/shop/services/ShopServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../airline_reservation_project/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../airline_reservation_project/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../airline_reservation_project/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../airline_reservation_project/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../airline_reservation_project/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../airline_reservation_project/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../airline_reservation_project/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../airline_reservation_project/src/main/java/airline/AirlineUI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../airline_reservation_project/src/main/java/airline/DB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../airline_reservation_project/src/main/java/airline/Data.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../airline_reservation_project/src/main/java/airline/Kiosk.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../airline_reservation_project/src/main/java/airline/Menu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bank/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bank/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bank/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bank/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bank/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bank/src/main/java/com/binary/bank/BankApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bank/src/main/java/com/binary/bank/controller/BankController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bank/src/main/java/com/binary/bank/entities/BankAccount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bank/src/main/java/com/binary/bank/repositories/BankRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bank/src/main/java/com/binary/bank/services/BankService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bank/src/main/java/com/binary/bank/services/BankServiceImplementation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bank/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bank/src/test/java/com/binary/bank/BankAccountApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employeeManagement/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employeeManagement/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employeeManagement/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employeeManagement/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employeeManagement/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employeeManagement/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employeeManagement/src/main/java/com/binary/employeeManagement/EmployeeManagementApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employeeManagement/src/main/java/com/binary/employeeManagement/controller/EmployeeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employeeManagement/src/main/java/com/binary/employeeManagement/model/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employeeManagement/src/main/java/com/binary/employeeManagement/repositories/EmployeeRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employeeManagement/src/main/java/com/binary/employeeManagement/services/EmployeeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employeeManagement/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employeeManagement/src/main/resources/templates/employees/createEmployee.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employeeManagement/src/main/resources/templates/employees/deleteEmployee.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employeeManagement/src/main/resources/templates/employees/displayEmployee.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employeeManagement/src/main/resources/templates/employees/updateEmployee.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employeeManagement/src/test/java/com/binary/employeeManagement/EmployeeManagementApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavan-jdbc-javapro/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavan-jdbc-javapro/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavan-jdbc-javapro/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavan-jdbc-javapro/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavan-jdbc-javapro/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavan-jdbc-javapro/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavan-jdbc-javapro/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavan-jdbc-javapro/src/main/java/com/controller/MainController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavan-jdbc-javapro/src/main/java/com/daos/StudentDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavan-jdbc-javapro/src/main/java/com/daos/StudentDaoImplementation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavan-jdbc-javapro/src/main/java/com/entities/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavan-jdbc-javapro/src/main/java/com/services/StudentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavan-jdbc-javapro/src/main/java/com/utilities/SQLConnector.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavan-jdbc-javapro/src/test/java/com/jdbc/mavan_jdbc_javapro/UnitTesting.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2hEhHGwYGJ57vCUkCCNUHJmYyxa" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.CarShowApplication.executor": "Run",
+    "Application.ShopApplication.executor": "Run",
+    "JUnit.CarControllerTest.executor": "Coverage",
+    "JUnit.CarServiceTest.executor": "Run",
+    "JUnit.CarShowApplicationTests.executor": "Coverage",
+    "JUnit.EmployeeServiceImplTest.executor": "Run",
+    "JUnit.EmployeeServiceImplTest.testCreateEmployee.executor": "Run",
+    "JUnit.MemberServiceTest.executor": "Run",
+    "JUnit.OwnerServiceTest.createOwner.executor": "Debug",
+    "JUnit.OwnerServiceTest.executor": "Run",
+    "JUnit.ShopExceptionHandlerTest.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "Binary",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Work/deVos/library-Security",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
+  }
+}]]></component>
+  <component name="RunManager" selected="JUnit.EmployeeServiceImplTest.testCreateEmployee">
+    <configuration name="ShopApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.binary.shop.ShopApplication" />
+      <module name="shop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.binary.shop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmployeeServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.binary.shop.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.binary.shop.services" />
+      <option name="MAIN_CLASS_NAME" value="com.binary.shop.services.EmployeeServiceImplTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmployeeServiceImplTest.testCreateEmployee" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.binary.shop.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.binary.shop.services" />
+      <option name="MAIN_CLASS_NAME" value="com.binary.shop.services.EmployeeServiceImplTest" />
+      <option name="METHOD_NAME" value="testCreateEmployee" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OwnerServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.binary.shop.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.binary.CarShow.services" />
+      <option name="MAIN_CLASS_NAME" value="com.binary.shop.services.OwnerServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShopExceptionHandlerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.binary.shop.advices.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.binary.shop.advices" />
+      <option name="MAIN_CLASS_NAME" value="com.binary.shop.advices.ShopExceptionHandlerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.EmployeeServiceImplTest.testCreateEmployee" />
+        <item itemvalue="JUnit.EmployeeServiceImplTest" />
+        <item itemvalue="JUnit.ShopExceptionHandlerTest" />
+        <item itemvalue="Application.ShopApplication" />
+        <item itemvalue="JUnit.OwnerServiceTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6a516de3-1780-4af8-8ae2-41618a85470b" name="Changes" comment="" />
+      <created>1717165054496</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1717165054496</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/binary/shop/services/EmployeeServiceImplTest.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/carShow$CarShowApplicationTests.ic" NAME="CarShowApplicationTests Coverage Results" MODIFIED="1717355915492" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>com.binary.CarShow.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/carShow$CarShowApplication.ic" NAME="CarShowApplication Coverage Results" MODIFIED="1717364000892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>com.binary.CarShow.*</FILTER>
+    </SUITE>
+  </component>
+</project>
