@@ -11,8 +11,6 @@ public class AuthenticationRequestDto {
     private String userName;
     private String password;
 
-    public AuthenticationRequestDto(String jwt) {
-    }
 
     public String getUserName() {
         return userName;

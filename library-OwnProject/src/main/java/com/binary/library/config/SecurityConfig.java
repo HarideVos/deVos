@@ -22,12 +22,16 @@ public class SecurityConfig {
     private JwtTokenFilter jwtTokenFilter;
     @Bean
     public SecurityFilterChain defaultSecurityFilterChain(HttpSecurity http) throws Exception {
-        http.authorizeHttpRequests(authorization ->
-                        authorization.requestMatchers( "/api/v1/visitor/register", "/api/v1/visitor/login").permitAll()
-                                .anyRequest().authenticated())
-                .sessionManagement(session -> session.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
+        http.
+
+                authorizeHttpRequests(authorize -> authorize
+                .requestMatchers("/api/v1/visitor/login", "/api/v1/visitor/register").permitAll()
+                .anyRequest().authenticated())
+                .sessionManagement(session->session.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
                 .csrf(csrf -> csrf.disable());
+
         http.addFilterBefore(jwtTokenFilter, UsernamePasswordAuthenticationFilter.class);
+
         return http.build();
     }
 
