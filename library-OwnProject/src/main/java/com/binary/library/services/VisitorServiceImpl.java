@@ -9,10 +9,10 @@ import java.util.List;
 import java.util.Optional;
 
 @Service
-
 public class VisitorServiceImpl implements VisitorService {
     @Autowired
     private VisitorRepository visitorRepository;
+
 
     @Override
     public List<Visitor> getAllVisitors() {

@@ -18,7 +18,7 @@ import java.util.List;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.Mockito.*;
 
-class LibraryControllerTest {
+public class LibraryControllerTest {
 
     @Mock
     private LibraryService libraryService;
@@ -47,7 +47,7 @@ class LibraryControllerTest {
 
     @Test
     void testCreateBook() {
-        LibraryDto bookDto = new LibraryDto(1, "Lord of the Rings", "Tolkien");
+        LibraryDto bookDto = new LibraryDto();
         Library createdBook = new Library();
         when(libraryService.createBook(bookDto)).thenReturn(createdBook);
 
@@ -61,7 +61,7 @@ class LibraryControllerTest {
     @Test
     void testUpdateBook() {
         long id = 1L;
-        LibraryDto bookDto = new LibraryDto(1, "Lord of the Rings", "Tolkien");
+        LibraryDto bookDto = new LibraryDto();
         Library updatedBook = new Library();
         when(libraryService.updateBook(id, bookDto)).thenReturn(updatedBook);
 
@@ -75,14 +75,11 @@ class LibraryControllerTest {
     @Test
     void testDeleteBook() {
         long id = 1L;
-        doNothing().when(libraryService).deleteBook(id);
-
         ResponseEntity<Void> response = libraryController.deleteBook(id);
 
         assertEquals(HttpStatus.NO_CONTENT, response.getStatusCode());
         verify(libraryService, times(1)).deleteBook(id);
     }
-
     @Test
     void testGetBookById() {
         long id = 1L;

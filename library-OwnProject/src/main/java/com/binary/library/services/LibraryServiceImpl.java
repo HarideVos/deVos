@@ -13,7 +13,7 @@ import java.util.List;
 public class LibraryServiceImpl implements LibraryService {
 
     private final List<Library> books = new ArrayList<>();
-    private long nextId = 1;
+    private Long nextId = 1L;
 
     @Override
     public List<Library> getAllBooks() {
@@ -28,11 +28,11 @@ public class LibraryServiceImpl implements LibraryService {
     }
 
     @Override
-    public Library updateBook(long id, @Valid LibraryDto updatedBook) throws BookNotFoundException {
+    public Library updateBook(Long id, @Valid LibraryDto updatedBookDto) throws BookNotFoundException {
         for (int i = 0; i < books.size(); i++) {
             Library book = books.get(i);
-            if (book.getId() == id) {
-                updatedBook.setId((long) id);
+            if (book.getId().equals(id)) {
+                Library updatedBook = new Library(id, updatedBookDto.getTitle(), updatedBookDto.getAuthor());
                 books.set(i, updatedBook);
                 return updatedBook;
             }
@@ -41,10 +41,10 @@ public class LibraryServiceImpl implements LibraryService {
     }
 
     @Override
-    public Long deleteBook(long id) throws BookNotFoundException {
+    public Long deleteBook(Long id) throws BookNotFoundException {
         for (int i = 0; i < books.size(); i++) {
             Library book = books.get(i);
-            if (book.getId() == id) {
+            if (book.getId().equals(id)) {
                 books.remove(i);
                 return id;
             }
@@ -53,9 +53,9 @@ public class LibraryServiceImpl implements LibraryService {
     }
 
     @Override
-    public Library getBookById(long id) throws BookNotFoundException {
+    public Library getBookById(Long id) throws BookNotFoundException {
         for (Library book : books) {
-            if (book.getId() == id) {
+            if (book.getId().equals(id)) {
                 return book;
             }
         }

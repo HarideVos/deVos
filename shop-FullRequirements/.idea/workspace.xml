@@ -5,66 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6a516de3-1780-4af8-8ae2-41618a85470b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/binary/shop/advices/ShopExceptionHandlerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/binary/shop/config/ClientDetailsServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/binary/shop/services/EmployeeServiceImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/binary/shop/services/ShopServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../airline_reservation_project/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../airline_reservation_project/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../airline_reservation_project/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../airline_reservation_project/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../airline_reservation_project/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../airline_reservation_project/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../airline_reservation_project/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../airline_reservation_project/src/main/java/airline/AirlineUI.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../airline_reservation_project/src/main/java/airline/DB.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../airline_reservation_project/src/main/java/airline/Data.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../airline_reservation_project/src/main/java/airline/Kiosk.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../airline_reservation_project/src/main/java/airline/Menu.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bank/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bank/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bank/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bank/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bank/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bank/src/main/java/com/binary/bank/BankApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bank/src/main/java/com/binary/bank/controller/BankController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bank/src/main/java/com/binary/bank/entities/BankAccount.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bank/src/main/java/com/binary/bank/repositories/BankRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bank/src/main/java/com/binary/bank/services/BankService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bank/src/main/java/com/binary/bank/services/BankServiceImplementation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bank/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bank/src/test/java/com/binary/bank/BankAccountApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../employeeManagement/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../employeeManagement/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../employeeManagement/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../employeeManagement/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../employeeManagement/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../employeeManagement/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../employeeManagement/src/main/java/com/binary/employeeManagement/EmployeeManagementApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../employeeManagement/src/main/java/com/binary/employeeManagement/controller/EmployeeController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../employeeManagement/src/main/java/com/binary/employeeManagement/model/Employee.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../employeeManagement/src/main/java/com/binary/employeeManagement/repositories/EmployeeRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../employeeManagement/src/main/java/com/binary/employeeManagement/services/EmployeeService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../employeeManagement/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../employeeManagement/src/main/resources/templates/employees/createEmployee.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../employeeManagement/src/main/resources/templates/employees/deleteEmployee.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../employeeManagement/src/main/resources/templates/employees/displayEmployee.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../employeeManagement/src/main/resources/templates/employees/updateEmployee.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../employeeManagement/src/test/java/com/binary/employeeManagement/EmployeeManagementApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mavan-jdbc-javapro/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mavan-jdbc-javapro/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mavan-jdbc-javapro/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mavan-jdbc-javapro/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mavan-jdbc-javapro/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mavan-jdbc-javapro/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mavan-jdbc-javapro/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mavan-jdbc-javapro/src/main/java/com/controller/MainController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mavan-jdbc-javapro/src/main/java/com/daos/StudentDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mavan-jdbc-javapro/src/main/java/com/daos/StudentDaoImplementation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mavan-jdbc-javapro/src/main/java/com/entities/Student.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mavan-jdbc-javapro/src/main/java/com/services/StudentService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mavan-jdbc-javapro/src/main/java/com/utilities/SQLConnector.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mavan-jdbc-javapro/src/test/java/com/jdbc/mavan_jdbc_javapro/UnitTesting.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library-OwnProject/src/main/java/com/binary/library/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../library-OwnProject/src/main/java/com/binary/library/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library-OwnProject/src/main/java/com/binary/library/entities/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/../library-OwnProject/src/main/java/com/binary/library/entities/Library.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library-OwnProject/src/main/java/com/binary/library/repositories/VisitorRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../library-OwnProject/src/main/java/com/binary/library/repositories/VisitorRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library-OwnProject/src/main/java/com/binary/library/services/VisitorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../library-OwnProject/src/main/java/com/binary/library/services/VisitorService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library-OwnProject/src/main/java/com/binary/library/services/VisitorServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../library-OwnProject/src/main/java/com/binary/library/services/VisitorServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library-OwnProject/src/test/java/com/binary/library/controllers/LibraryControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../library-OwnProject/src/test/java/com/binary/library/controllers/LibraryControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library-OwnProject/src/test/java/com/binary/library/controllers/VisitorControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../library-OwnProject/src/test/java/com/binary/library/controllers/VisitorControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library-OwnProject/src/test/java/com/binary/library/dtos/AuthenticationRequestDtoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../library-OwnProject/src/test/java/com/binary/library/dtos/AuthenticationRequestDtoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library-OwnProject/src/test/java/com/binary/library/dtos/AuthenticationResponseDtoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../library-OwnProject/src/test/java/com/binary/library/dtos/AuthenticationResponseDtoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library-OwnProject/src/test/java/com/binary/library/dtos/LibraryDtoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../library-OwnProject/src/test/java/com/binary/library/dtos/LibraryDtoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library-OwnProject/src/test/java/com/binary/library/entities/LibraryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../library-OwnProject/src/test/java/com/binary/library/entities/LibraryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library-OwnProject/src/test/java/com/binary/library/exceptions/BookNotFoundExceptionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../library-OwnProject/src/test/java/com/binary/library/exceptions/BookNotFoundExceptionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library-OwnProject/src/test/java/com/binary/library/repositories/RepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../library-OwnProject/src/test/java/com/binary/library/repositories/RepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library-OwnProject/src/test/java/com/binary/library/services/VisitorServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../library-OwnProject/src/test/java/com/binary/library/services/VisitorServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binary/shop/entities/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/binary/shop/entities/Client.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,29 +52,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.CarShowApplication.executor": "Run",
-    "Application.ShopApplication.executor": "Run",
-    "JUnit.CarControllerTest.executor": "Coverage",
-    "JUnit.CarServiceTest.executor": "Run",
-    "JUnit.CarShowApplicationTests.executor": "Coverage",
-    "JUnit.EmployeeServiceImplTest.executor": "Run",
-    "JUnit.EmployeeServiceImplTest.testCreateEmployee.executor": "Run",
-    "JUnit.MemberServiceTest.executor": "Run",
-    "JUnit.OwnerServiceTest.createOwner.executor": "Debug",
-    "JUnit.OwnerServiceTest.executor": "Run",
-    "JUnit.ShopExceptionHandlerTest.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Binary",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Work/deVos/library-Security",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.CarShowApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ShopApplication.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CarControllerTest.executor&quot;: &quot;Coverage&quot;,
+    &quot;JUnit.CarServiceTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CarShowApplicationTests.executor&quot;: &quot;Coverage&quot;,
+    &quot;JUnit.ClientDetailsServiceTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.EmployeeServiceImplTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.EmployeeServiceImplTest.testCreateEmployee.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MemberServiceTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.OwnerServiceTest.createOwner.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.OwnerServiceTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ShopExceptionHandlerTest.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Binary&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Work/deVos/shop-FullRequirements&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="JUnit.EmployeeServiceImplTest.testCreateEmployee">
+}</component>
+  <component name="RunManager" selected="JUnit.ClientDetailsServiceTest">
     <configuration name="ShopApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.binary.shop.ShopApplication" />
       <module name="shop" />
@@ -128,6 +85,21 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClientDetailsServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.binary.shop.config.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.binary.shop.config" />
+      <option name="MAIN_CLASS_NAME" value="com.binary.shop.config.ClientDetailsServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -163,21 +135,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OwnerServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="shop" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.binary.shop.services.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.binary.CarShow.services" />
-      <option name="MAIN_CLASS_NAME" value="com.binary.shop.services.OwnerServiceTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ShopExceptionHandlerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="shop" />
       <extension name="coverage">
@@ -195,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ClientDetailsServiceTest" />
         <item itemvalue="JUnit.EmployeeServiceImplTest.testCreateEmployee" />
         <item itemvalue="JUnit.EmployeeServiceImplTest" />
         <item itemvalue="JUnit.ShopExceptionHandlerTest" />
         <item itemvalue="Application.ShopApplication" />
-        <item itemvalue="JUnit.OwnerServiceTest" />
       </list>
     </recent_temporary>
   </component>
@@ -221,6 +178,11 @@
           <url>file://$PROJECT_DIR$/src/test/java/com/binary/shop/services/EmployeeServiceImplTest.java</url>
           <line>11</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/binary/shop/config/ClientDetailsServiceTest.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -4,13 +4,15 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-class AuthenticationRequestDtoTest {
+public class AuthenticationRequestDtoTest {
 
     @Test
     void testConstructorAndGetters() {
         String username = "testUser";
         String password = "testPassword";
         AuthenticationRequestDto requestDto = new AuthenticationRequestDto();
+        requestDto.setUserName(username);
+        requestDto.setPassword(password);
         assertEquals(username, requestDto.getUserName());
         assertEquals(password, requestDto.getPassword());
     }

@@ -4,27 +4,29 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class LibraryDtoTest {
+public class LibraryDtoTest {
 
     @Test
     void testNoArgsConstructor() {
-        LibraryDto dto = new LibraryDto(1, "Lord of the Rings", "Tolkien");
+        LibraryDto dto = new LibraryDto();
         assertNull(dto.getTitle());
         assertNull(dto.getAuthor());
     }
 
     @Test
     void testAllArgsConstructor() {
-        String title = "Title";
-        String author = "Author";
-        LibraryDto dto = new LibraryDto(1L, title, author);
+        LibraryDto dto = new LibraryDto();
+        String title = "title";
+        String author = "author";
+        dto.setAuthor(author);
+        dto.setTitle(title);
         assertEquals(title, dto.getTitle());
         assertEquals(author, dto.getAuthor());
     }
 
     @Test
     void testSetTitle() {
-        LibraryDto dto = new LibraryDto(1, "Lord of the Rings", "Tolkien");
+        LibraryDto dto = new LibraryDto();
         String title = "New Title";
         dto.setTitle(title);
         assertEquals(title, dto.getTitle());
@@ -32,7 +34,7 @@ class LibraryDtoTest {
 
     @Test
     void testSetAuthor() {
-        LibraryDto dto = new LibraryDto(1, "Lord of the Rings", "Tolkien");
+        LibraryDto dto = new LibraryDto();
         String author = "New Author";
         dto.setAuthor(author);
         assertEquals(author, dto.getAuthor());

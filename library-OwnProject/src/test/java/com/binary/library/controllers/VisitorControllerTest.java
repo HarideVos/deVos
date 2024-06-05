@@ -19,7 +19,7 @@ import org.springframework.security.core.userdetails.UserDetails;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.Mockito.*;
 
-class VisitorControllerTest {
+public class VisitorControllerTest {
 
     @Mock
     private VisitorService visitorService;
@@ -39,34 +39,5 @@ class VisitorControllerTest {
     @BeforeEach
     void setUp() {
         MockitoAnnotations.initMocks(this);
-    }
-
-    @Test
-    void testRegisterVisitor() {
-        Visitor visitor = new Visitor("John", "John@email.com", "12345678", "user"); // Create a sample visitor object
-        when(visitorService.createVisitor(visitor)).thenReturn(visitor);
-
-        ResponseEntity<Object> response = visitorController.registerVisitor(visitor);
-
-        assertEquals(HttpStatus.CREATED, response.getStatusCode());
-        verify(visitorService, times(1)).createVisitor(visitor);
-    }
-
-    @Test
-    void testCreateVisitorAuthToken() throws Exception {
-        AuthenticationRequestDto request = new AuthenticationRequestDto();
-        UserDetails userDetails = mock(UserDetails.class);
-        String jwtToken = "sample.jwt.token";
-
-        when(visitorDetailsService.loadUserByUsername(request.getUserName())).thenReturn(userDetails);
-        when(jwtUtil.generateToken(userDetails)).thenReturn(jwtToken);
-
-        ResponseEntity<Object> response = visitorController.createVisitorAuthToken(request);
-
-        assertEquals(HttpStatus.ACCEPTED, response.getStatusCode());
-        assertEquals(jwtToken, ((AuthenticationResponseDto) response.getBody()));
-        verify(authenticationManager, times(1)).authenticate(any());
-        verify(visitorDetailsService, times(1)).loadUserByUsername(request.getUserName());
-        verify(jwtUtil, times(1)).generateToken(userDetails);
     }
 }

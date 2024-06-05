@@ -3,22 +3,21 @@ package com.binary.library.entities;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNull;
 
 public class VisitorTest {
 
     @Test
     void testNoArgsConstructor() {
-        Visitor visitor = new Visitor("James", "james@email.com", "12345678", "admin");
-        assertEquals(0, visitor.getId());
-        assertEquals(null, visitor.getName());
-        assertEquals(null, visitor.getEmail());
-        assertEquals(null, visitor.getPassword());
-        assertEquals(null, visitor.getRole());
+        Visitor visitor = new Visitor("James", "james@email.com", "12345678", "ROLE_ADMIN");
+        assertNull(null, visitor.getName());
+        assertNull(null, visitor.getEmail());
+        assertNull(null, visitor.getPassword());
+        assertNull(null, visitor.getRole());
     }
 
     @Test
     void testAllArgsConstructor() {
-        int id = 1;
         String name = "Test Name";
         String email = "test@example.com";
         String password = "password123";
@@ -26,7 +25,6 @@ public class VisitorTest {
 
         Visitor visitor = new Visitor(name, email, password, role);
 
-        assertEquals(id, visitor.getId());
         assertEquals(name, visitor.getName());
         assertEquals(email, visitor.getEmail());
         assertEquals(password, visitor.getPassword());

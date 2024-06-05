@@ -31,7 +31,10 @@ public class Library {
         this.timeBorrow = timeBorrow;
     }
 
-    public Library(long l, String title, String author) {
+    public Library(Long id, String bookName, String authorName) {
+        this.id=id;
+        this.bookName=bookName;
+        this.authorName=authorName;
     }
 
 

@@ -29,8 +29,16 @@ public class VisitorController {
 
     @PostMapping("/register")
     public ResponseEntity<Object> registerVisitor(@RequestBody Visitor visitor) {
-
-        return new ResponseEntity<>(visitorService.createVisitor(visitor), HttpStatus.CREATED);
+        if(visitorService != null) {
+            Visitor createdVisitor = visitorService.createVisitor(visitor);
+            if (createdVisitor != null) {
+                return new ResponseEntity<>(createdVisitor, HttpStatus.CREATED);
+            } else {
+                return new ResponseEntity<>("Failed to create visitor", HttpStatus.INTERNAL_SERVER_ERROR);
+            }
+        } else {
+            return new ResponseEntity<>("Visitor service is not available", HttpStatus.INTERNAL_SERVER_ERROR);
+        }
     }
 
     @PostMapping("/login")

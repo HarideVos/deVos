@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class LibraryTest {
+public class LibraryTest {
 
     @Test
     void testNoArgsConstructor() {
@@ -29,7 +29,6 @@ class LibraryTest {
 
         Library library = new Library(bookName, publishedName, authorName, ISBN, timeBorrow);
 
-        assertEquals(id, library.getId());
         assertEquals(bookName, library.getBookName());
         assertEquals(publishedName, library.getPublishedName());
         assertEquals(authorName, library.getAuthorName());

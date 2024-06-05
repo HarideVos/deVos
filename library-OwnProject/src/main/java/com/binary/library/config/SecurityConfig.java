@@ -23,7 +23,6 @@ public class SecurityConfig {
     @Bean
     public SecurityFilterChain defaultSecurityFilterChain(HttpSecurity http) throws Exception {
         http.
-
                 authorizeHttpRequests(authorize -> authorize
                 .requestMatchers("/api/v1/visitor/login", "/api/v1/visitor/register").permitAll()
                 .anyRequest().authenticated())

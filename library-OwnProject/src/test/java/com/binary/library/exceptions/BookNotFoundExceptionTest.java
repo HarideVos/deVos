@@ -8,7 +8,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNull;
 
 @ExtendWith(MockitoExtension.class)
-class BookNotFoundExceptionTest {
+public class BookNotFoundExceptionTest {
 
     @Test
     void testConstructorWithMessage() {

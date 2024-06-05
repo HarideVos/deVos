@@ -19,9 +19,7 @@ public class LibraryDto extends Library {
     @NotBlank(message = "Author is required")
     private String author;
 
-    public LibraryDto(long l, String title, String author) {
-        super(l, title, author);
-    }
+
 
     public @NotBlank(message = "Title is required") String getTitle() {
         return title;

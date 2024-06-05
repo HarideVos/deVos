@@ -1,12 +1,14 @@
 package com.binary.library.services;
 
 import com.binary.library.entities.Visitor;
+import lombok.Getter;
+import lombok.Setter;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
-@Service
 
+@Service
 public interface VisitorService {
     List<Visitor> getAllVisitors();
     Visitor createVisitor(Visitor visitor);

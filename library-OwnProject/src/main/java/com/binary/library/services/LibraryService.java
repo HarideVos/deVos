@@ -11,7 +11,7 @@ import java.util.List;
 public interface LibraryService {
     List<Library> getAllBooks();
     Library createBook(@Valid LibraryDto bookDto);
-    Library updateBook(long id, @Valid LibraryDto updatedBook) throws BookNotFoundException;
-    Long deleteBook(long id) throws BookNotFoundException;
-    Library getBookById(long id) throws BookNotFoundException;
+    Library updateBook(Long id, @Valid LibraryDto updatedBook) throws BookNotFoundException;
+    Long deleteBook(Long id) throws BookNotFoundException;
+    Library getBookById(Long id) throws BookNotFoundException;
 }
