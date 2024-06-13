@@ -1,8 +1,9 @@
 package com.binary.CarShow.dtos;
 
 import lombok.Data;
+import lombok.Getter;
 
-@Data
+@Getter
 public class AuthenticationResponseDto {
     private final String token;
 
@@ -10,4 +11,7 @@ public class AuthenticationResponseDto {
         this.token = token;
     }
 
+    public String getToken() {
+        return token;
+    }
 }

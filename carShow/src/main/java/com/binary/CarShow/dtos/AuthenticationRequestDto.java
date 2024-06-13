@@ -1,25 +1,24 @@
 package com.binary.CarShow.dtos;
 
 import lombok.AllArgsConstructor;
-import lombok.Data;
+import lombok.Getter;
 import lombok.NoArgsConstructor;
+import lombok.Setter;
 
-@Data
+@Getter
 @NoArgsConstructor
 @AllArgsConstructor
+@Setter
 public class AuthenticationRequestDto {
-    private String userName;
+    private String username;
     private String password;
 
-    public AuthenticationRequestDto(String jwt) {
+    public String getUsername() {
+        return username;
     }
 
-    public String getUserName() {
-        return userName;
-    }
-
-    public void setUserName(String userName) {
-        this.userName = userName;
+    public void setUsername(String username) {
+        this.username = username;
     }
 
     public String getPassword() {
