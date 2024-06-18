@@ -1,0 +1,20 @@
+.navBarDiv{
+    background-color: aquamarine;
+    padding: 15px;
+}
+
+.navList{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+.navListItem{
+    margin-left: 10px;
+    padding: 5px;
+    border-radius: 25%;
+    a{
+        color: red;
+        text-decoration: solid;
+        font-weight: bold;
+    }
+}

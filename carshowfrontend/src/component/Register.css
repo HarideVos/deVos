@@ -1,0 +1,29 @@
+.registerContainer {
+    background-color: cadetblue;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .registerContainer h2 {
+    color: wheat;
+    font-size: 50px;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 250px;
+  }
+  
+  .registerContainer button {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 40px;
+    cursor: pointer;
+    color: blue;
+  }
+  
+  .registerContainer button:hover {
+    background-color: wheat;
+  }
+  

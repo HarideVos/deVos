@@ -1,0 +1,22 @@
+.home{
+    background-color: cadetblue;
+    width: 100vw;
+    height: 100vh;
+    h1{
+        color:wheat;
+        font-size: 50px;
+        font-weight: 800px;
+        text-align: center;
+        padding-top: 250px;
+    }
+    button{
+        margin-left: 48vw;
+        padding: 20px;
+        border-radius: 40px;
+        cursor: pointer;
+        color:blue;        
+    }
+    button:hover{
+        background-color: wheat;
+    }
+}
